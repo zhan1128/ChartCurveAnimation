@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3D33F41ED91E94003659B1 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D33F31ED91E94003659B1 /* TestViewController.m */; };
+		4EE18AD11E543B8700021A26 /* ZZLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE18AD01E543B8700021A26 /* ZZLineChart.m */; };
 		4EF23B361E52EE2F000DF4E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF23B351E52EE2F000DF4E2 /* main.m */; };
 		4EF23B391E52EE2F000DF4E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF23B381E52EE2F000DF4E2 /* AppDelegate.m */; };
 		4EF23B3C1E52EE2F000DF4E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF23B3B1E52EE2F000DF4E2 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		4EF23B441E52EE2F000DF4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EF23B421E52EE2F000DF4E2 /* LaunchScreen.storyboard */; };
 		4EF23B4F1E52EE30000DF4E2 /* ZZChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF23B4E1E52EE30000DF4E2 /* ZZChartTests.m */; };
 		4EF23B5A1E52EE30000DF4E2 /* ZZChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF23B591E52EE30000DF4E2 /* ZZChartUITests.m */; };
+		4EF23B691E52F067000DF4E2 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF23B681E52F067000DF4E2 /* ChartViewController.m */; };
+		4EF23B6C1E52F8D1000DF4E2 /* ZZChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF23B6B1E52F8D1000DF4E2 /* ZZChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E3D33F21ED91E94003659B1 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4E3D33F31ED91E94003659B1 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		4EE18ACF1E543B8700021A26 /* ZZLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLineChart.h; sourceTree = "<group>"; };
+		4EE18AD01E543B8700021A26 /* ZZLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLineChart.m; sourceTree = "<group>"; };
 		4EF23B311E52EE2F000DF4E2 /* ZZChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF23B351E52EE2F000DF4E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EF23B371E52EE2F000DF4E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		4EF23B551E52EE30000DF4E2 /* ZZChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF23B591E52EE30000DF4E2 /* ZZChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZChartUITests.m; sourceTree = "<group>"; };
 		4EF23B5B1E52EE30000DF4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EF23B671E52F067000DF4E2 /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		4EF23B681E52F067000DF4E2 /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		4EF23B6A1E52F8D1000DF4E2 /* ZZChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZChart.h; sourceTree = "<group>"; };
+		4EF23B6B1E52F8D1000DF4E2 /* ZZChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				4EF23B381E52EE2F000DF4E2 /* AppDelegate.m */,
 				4EF23B3A1E52EE2F000DF4E2 /* ViewController.h */,
 				4EF23B3B1E52EE2F000DF4E2 /* ViewController.m */,
+				4EF23B6A1E52F8D1000DF4E2 /* ZZChart.h */,
+				4EF23B6B1E52F8D1000DF4E2 /* ZZChart.m */,
+				4EF23B671E52F067000DF4E2 /* ChartViewController.h */,
+				4EF23B681E52F067000DF4E2 /* ChartViewController.m */,
+				4E3D33F21ED91E94003659B1 /* TestViewController.h */,
+				4E3D33F31ED91E94003659B1 /* TestViewController.m */,
+				4EE18ACF1E543B8700021A26 /* ZZLineChart.h */,
+				4EE18AD01E543B8700021A26 /* ZZLineChart.m */,
 				4EF23B3D1E52EE2F000DF4E2 /* Main.storyboard */,
 				4EF23B401E52EE2F000DF4E2 /* Assets.xcassets */,
 				4EF23B421E52EE2F000DF4E2 /* LaunchScreen.storyboard */,
@@ -274,8 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF23B3C1E52EE2F000DF4E2 /* ViewController.m in Sources */,
+				4EF23B691E52F067000DF4E2 /* ChartViewController.m in Sources */,
+				4E3D33F41ED91E94003659B1 /* TestViewController.m in Sources */,
+				4EE18AD11E543B8700021A26 /* ZZLineChart.m in Sources */,
 				4EF23B391E52EE2F000DF4E2 /* AppDelegate.m in Sources */,
 				4EF23B361E52EE2F000DF4E2 /* main.m in Sources */,
+				4EF23B6C1E52F8D1000DF4E2 /* ZZChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +529,7 @@
 				4EF23B601E52EE30000DF4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EF23B611E52EE30000DF4E2 /* Build configuration list for PBXNativeTarget "ZZChartTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +538,7 @@
 				4EF23B631E52EE30000DF4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EF23B641E52EE30000DF4E2 /* Build configuration list for PBXNativeTarget "ZZChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				4EF23B661E52EE30000DF4E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

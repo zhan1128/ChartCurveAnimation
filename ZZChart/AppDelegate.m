@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    ViewController *viewController = [ViewController new];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:viewController];
+    self.window.rootViewController = nav;
+    
+//    UIWindow *debugWindow = (UIWindow *)NSClassFromString(@"UIDebuggingInformationOverlay");
+//    [debugWindow performSelector:NSSelectorFromString(@"prepareDebuggingOverlay") withObject:nil];
+//    [[debugWindow performSelector:NSSelectorFromString(@"overlay") withObject:nil] performSelector:NSSelectorFromString(@"toggleVisibility") withObject:nil];
+
     return YES;
 }
 
